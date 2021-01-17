@@ -185,7 +185,131 @@ ol li:before {
     font-weight: 500;
     margin-right: 10px;
 }
+ .geeks { 
+    width: 100%; 
+    height: 450px; 
+    overflow: hidden; 
+    margin: 0 auto; 
+       background-attachment: scroll;
+background-clip: padding-box;
+background-color: transparent;
+background-origin: padding-box;
+background-position: 2% 50%;
+background-repeat: no-repeat;
+/*-khtml-background-size*/
+} 
+.qr-buttn{
+    padding: 30px 0 4px 100px;
+}
+.qr-header{
+padding: 60px 0 0px 0px;
+}
+.qr-image{
+width: 400px;
+height: 400px;
+padding: 10px 0 10px 40px;
 
+}
+
+.qr-text{
+
+padding: 10px 0 10px 60px;
+    font-weight: 700;
+    color: #111d5c;
+
+}
+.geeks img { 
+    width: 100%; 
+    transition: 0.8s all ease-in-out; 
+} 
+      
+.geeks:hover img { 
+    transform: scale(1.2); 
+} 
+
+
+ .geeks-smaller { 
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    margin: 0 auto; 
+       background-attachment: scroll;
+background-clip: padding-box;
+background-color: transparent;
+background-origin: padding-box;
+background-position: 2% 50%;
+background-repeat: no-repeat;
+/*-khtml-background-size*/
+} 
+.geeks-smaller img { 
+    width: 100%; 
+    transition: 0.8s all ease-in-out; 
+} 
+.mspm{
+    padding: 90px 150px 60px 150px;
+}      
+
+.geeks-smaller:hover img { 
+    transform: scale(1.2); 
+} 
+
+.boldit{
+font-weight: 900;
+}
+
+.general-cont{
+    padding: 100px 0 0 50px;
+    text-align: center;
+    font-weight: lighter;
+}
+.general-cont h3 {
+    font-weight: bold;
+    color: #111d5c;
+}
+.general-cont h5{
+    padding:5px;
+    color: #111d5c;
+}
+
+.double-text{
+    height: 100%;
+    padding: 30px;
+    text-align: left;
+
+}
+.color{
+    padding: 20px 30px 30px 30px;
+    background-color: #f5f5f5;
+
+}
+
+.rem{
+    background-color: #fff;
+    padding-bottom: 40px 
+}
+
+
+.aboutclass{
+    padding: 10px 10px 10px 30px;
+    text-align: left;
+    height: 300px;
+}
+
+
+.center-double-text{
+text-align: center;
+ height: 100%;
+    padding: 30px;
+
+}
+}
+.highlight{
+    text-align: left;
+}
+.highlight-right{
+        text-align: right;
+
+}
 /*input and button type focus outline disable*/
 input[type="text"]:focus,
 input[type="email"]:focus,
@@ -1818,7 +1942,7 @@ object {
     padding-right: 15px;
 }
 
-.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:before {
+/*.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:before {
     position: absolute;
     right: 0;
     top: 50%;
@@ -1833,7 +1957,7 @@ object {
     transition: all 0.3s ease-in;
     font-weight: 900;
 }
-
+*/
 .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:hover > .sub-menu {
     visibility: visible;
     opacity: 1;
@@ -2457,14 +2581,46 @@ object {
 }
 
 .header-area.style-03.header-bg {
+
     background-color: #000;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     position: relative;
     z-index: 0;
+    background: url(https://mltsolutions.com/assets/uploads/media-uploader/header-slider-image-21586955189.jpg) no-repeat;
+    /*background:top center no-repeat;*/
 }
 
 .header-area.style-03.header-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 6, 24, 0.5);
+    content: '';
+    z-index: -1;
+}
+
+
+.top-header{
+    width: 20px;
+    height: 20px;
+}
+.after-landing{
+     width: 70px;
+    height: 70px;
+}
+.header-area.style-099.header-bg {
+    background-color: #000;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    z-index: 0;
+    background:top center no-repeat;
+}
+
+.header-area.style-099.header-bg:after {
     position: absolute;
     left: 0;
     top: 0;
@@ -2733,13 +2889,18 @@ object {
     bottom: 50px;
     color: var(--main-color-one);
     opacity: .1;
+    width: 150px;
+    height: 150px;
 }
-
+.cover-area{
+    width: 40px;
+    height: 40px;
+}
 .single-header-bottom-list-item .icon {
     font-size: 60px;
     line-height: 70px;
     color: var(--main-color-one);
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .single-header-bottom-list-item .content .title {
@@ -6383,3 +6544,4 @@ background-color: #f4f7fc;
   right: 0;
   box-shadow: 50px -50px 0 0 red;
 }
+
