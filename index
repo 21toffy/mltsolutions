@@ -203,6 +203,10 @@
             </div>
         </div>
     </header>
+
+
+
+    
 <div class="header-bottom-area-three section-bg-1">
     <div class="container-fluid">
         <div class="row">
@@ -520,10 +524,11 @@
         <div class="row">
                             <div class="col-lg-3 col-md-6">
                     <div class="singler-counterup-item-01 white">
-                        <div class="icon">
-                            <i class="flaticon-contract" aria-hidden="true"></i>
-                        </div>
+                                <span class="dark-content">
+                                    <img class="" src="assets/frontend/images/newimage/001-checklist.svg">
+                                </span>
                         <div class="content">
+
                             <div class="count-wrap"><span class="count-num">10+</span></div>
                             <h4 class="title">Projects Completed</h4>
                         </div>
@@ -531,10 +536,12 @@
                 </div>
                             <div class="col-lg-3 col-md-6">
                     <div class="singler-counterup-item-01 white">
-                        <div class="icon">
-                            <i class="flaticon-handshake" aria-hidden="true"></i>
-                        </div>
+
+                        <span class="dark-content">
+                            <img class="" src="assets/frontend/images/newimage/002-handshake.svg">
+                        </span>
                         <div class="content">
+                            
                             <div class="count-wrap"><span class="count-num">50+</span></div>
                             <h4 class="title">Happy Customers</h4>
                         </div>
@@ -542,9 +549,9 @@
                 </div>
                             <div class="col-lg-3 col-md-6">
                     <div class="singler-counterup-item-01 white">
-                        <div class="icon">
-                            <i class="flaticon-analytics" aria-hidden="true"></i>
-                        </div>
+                        <span class="dark-content">
+                            <img class="" src="assets/frontend/images/newimage/003-analytics.svg">
+                        </span>
                         <div class="content">
                             <div class="count-wrap"><span class="count-num">05+</span></div>
                             <h4 class="title">Running Projects</h4>
@@ -553,10 +560,11 @@
                 </div>
                             <div class="col-lg-3 col-md-6">
                     <div class="singler-counterup-item-01 white">
-                        <div class="icon">
-                            <i class="fas fa-exclamation-triangle" aria-hidden="true"></i>
-                        </div>
+                                <span class="dark-content">
+                                    <img class="" src="assets/frontend/images/newimage/001-caution.svg">
+                                </span>
                         <div class="content">
+
                             <div class="count-wrap"><span class="count-num">50+</span></div>
                             <h4 class="title">Followers</h4>
                         </div>
