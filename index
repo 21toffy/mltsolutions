@@ -206,7 +206,7 @@
 
 
 
-    
+
 <div class="header-bottom-area-three section-bg-1">
     <div class="container-fluid">
         <div class="row">
@@ -453,13 +453,12 @@
                         <div class="single-work-item">
                             <div class="thumb">
 
-                               <img  src="/assets/uploads/media-uploader/grid-081587061192.jpg" alt="">
+                               <img  src="assets/frontend/images/king.png" alt="">
                                 </div>
                             <div class="content">
-                                <h4 class="title"><a href="/work/1/finance-solution"> Finance Solution</a></h4>
-                                <div class="cats">                                                                                                          <a href="/work/category/2/financial">Financial</a>
-                                <a href="/work/category/3/consulting">Consulting</a>
-                                                                    </div>
+                                <h4 class="title"><a href="/work/1/finance-solution">Consumer Is King & Is Not A Cliché.</a></h4>
+                                <p>The journey towards the Consumer Kingdom is not easy but can be very rewarding. Look at the major companies that are doing ...</p>
+                                <div class="cats">  <a href="#">Read more</a></div>
                             </div>
                         </div>
                         
